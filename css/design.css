@@ -1,0 +1,78 @@
+body{
+  background-color: #263238;
+  margin: 0;
+}
+#howto{
+  width: 100%;
+  height: 100%;
+  background-color: #263238;
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  animation: fadeIn 3s;
+}
+@keyframes fadeIn{
+0% {opacity: 1;}
+75%{opacity: 1;}
+100% {opacity: 0;}
+}
+
+canvas{
+  width: 100%;
+  height: 100%;
+}
+
+h1{
+  font-family: serif;
+  color: #FFF;
+  text-align: right;
+  font-size: 30px;
+}
+h2{
+  color: #FFF;
+}
+#check{
+  color: #fff;
+}
+
+table{
+  /*width: 400px;
+  height: 800px;*/
+  width: 40vh;
+  height: 80vh;
+  margin: auto;
+}
+
+td{
+  width: 10%;
+  height: 5%;
+  background-color: #455A64;
+}
+
+.i {
+  background-color: #00BCD4; /* cyan */
+}
+
+.o {
+  background-color: #FFEB3B; /* yellow */
+}
+
+.t {
+  background-color: #9C27B0; /* purple */
+}
+
+.s {
+  background-color: #4CAF50; /* green */
+}
+
+.z {
+  background-color: #F44336; /* red */
+}
+
+.j {
+  background-color: #2196F3; /* blue */
+}
+
+.l {
+  background-color: #FF9800; /* orange */
+}
